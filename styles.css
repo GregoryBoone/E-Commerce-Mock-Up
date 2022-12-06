@@ -1,0 +1,198 @@
+/*Global*/
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body{
+  font-family: Arial, sans-serif;
+}
+
+/*Nav*/
+nav .nav-link{
+  color: #fff;
+}
+.navbar{
+  background-color: #002d2d;
+
+}
+nav form li{
+  padding: 20px;
+}
+/*Hero*/
+header{
+  margin-top: 85px;
+}
+.hero{
+  background-color: #002d2d;
+  color: #fff;
+  padding-left: 8.3%;
+}
+.hero h1{
+  font-size: 64px;
+  font-weight: bold;
+}
+.hero-form{
+  font-size: 24px;
+}
+
+/*Showcase*/
+.showcase-blurbs h5{
+  font-weight: bold;
+}
+.showcase-blurbs p{
+
+  padding-right: 1.2em;
+  text-decoration: none;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.showcase h1{
+  font-size: 64px;
+  margin: 6% 5%;
+}
+.showcase-image-container{
+  background-color: #000000;
+  text-align: center;
+  margin: 6% 5%;
+  padding: 5% 8% 5% 3%;
+  border-radius: 25px;
+}
+.showcase-image{
+  width: 100%;
+}
+
+/*Connect*/
+.connect-blurb{
+  padding: 15%;
+}
+.connect-blurb h3{
+  font-weight: bold;
+}
+.connect-heading{
+  font-weight: bold;
+}
+.connect-image-left{
+
+}
+.connect-image-container-left{
+  border-radius: 1.875em;
+  background: #c6f0fc;
+  display: flex;
+  justify-content: center;
+  padding: 3.625em 4.0625em;
+}
+.connect-image-container-right{
+  padding-top: 30%;
+  padding-bottom: 30%;
+}
+.tagline{
+  color: #008060;
+  padding-right: 1.2em;
+  text-decoration: none;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+/*Globe*/
+.globe{
+  text-align: center;
+}
+.globe-heading{
+  padding: 12% 8% 5% 8%;
+  font-size: 64px;
+}
+.globe h1{
+  font-size: 64px;
+  padding-top: 15px;
+
+}
+
+.globe-image{
+  width: 100%;
+}
+
+/*Testimonials*/
+.testimonials{
+  padding-top: 8%;
+}
+
+/*Help Center*/
+.help-blurb{
+  padding: 20px;
+}
+.help-center{
+  margin: 10% 0 8% 5%;
+}
+.help-image{
+  width: 100%;
+}
+
+/*Grow*/
+.grow{
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+/*Footer*/
+footer{
+  background-color: #004c3f;
+  margin-top: 30px;
+  padding-top: 20px;
+}
+
+.socials{
+  text-align: center;
+  padding: 15px;
+}
+.socials a{
+  padding: 15px;
+  font-size: 24px;
+  color: #fff;
+}
+.TOS{
+  text-align: center;
+  padding-right: 25px;
+}
+.TOS a{
+  text-decoration: none;
+  color: #fff;
+}
+.TOS ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+}
+
+.TOS li{
+  padding: 20px;
+}
+
+/*Media Queries*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .help-center col{
+    width: 100%;
+    display: block;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .connect-image-container-right{
+    padding-top: 5%;
+  }
+
+  .help-center col{
+    width: 100%;
+    display: block;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .connect-image-container-right{
+    padding-top: 3%;
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
